@@ -1,0 +1,16 @@
+/* Protocol buffer language version 2 */
+syntax = "proto2";
+
+/* specifies in what Java package name your generated classes should live */
+option java_package = "io.github.bauer";
+
+/* defines the class name which should contain all of the classes in this file */
+option java_outer_classname = "ProtobufReport";
+
+/* classes */
+message Report {
+    optional string Product = 1;
+    optional string Software = 2;
+    optional string Hardware = 3;
+    optional int32 Value = 4;
+}
