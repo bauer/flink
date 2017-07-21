@@ -1,3 +1,6 @@
 job/target/
+job/.idea/
+job/job.iml
 protobuf/target/
-
+protobuf/.idea/
+protobuf/bauer-protobuf-report.iml

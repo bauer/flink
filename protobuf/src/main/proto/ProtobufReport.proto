@@ -1,5 +1,5 @@
 /* Protocol buffer language version 2 */
-syntax = "proto2";
+/*syntax = "proto2";*/
 
 /* specifies in what Java package name your generated classes should live */
 option java_package = "io.github.bauer";
